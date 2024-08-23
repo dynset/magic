@@ -1,0 +1,40 @@
+[Desktop Entry]
+Actions=new-window;
+Categories=Utility;
+Comment=Mis Directorios Favoritos
+Exec=/usr/bin/dde-file-manager -n %u
+GenericName=Mis Directorios Favoritos
+Icon=dde-file-manager
+MimeType=inode/directory;
+Name=Mis Directorios Favoritos
+StartupNotify=true
+Terminal=false
+Type=Application
+Version=1.0
+X-Deepin-DEComponent=true
+X-Deepin-Vendor=deepin
+
+[Desktop Action new-window]
+Exec=dde-file-manager --new-window
+Name=Nueva Ventana
+
+[Desktop Action mis-cosas]
+Exec=dde-file-manager /home/ari/Per
+Name=Mis Cosas
+
+[Desktop Action proyectos]
+Exec=dde-file-manager /home/ari/Per/proyectos_de_software
+Name=Proyectos de Software
+
+[Desktop Action disco]
+Exec=dde-file-manager /media/ari/ari
+Name=Disco Externo
+
+[Desktop Action series]
+Exec=dde-file-manager /media/ari/ari/videos/series
+Name=Series
+
+[Desktop Action nada]
+Exec=/home/ari/Ejecutables/bin/inicio.sh
+Name=Iniciar
+

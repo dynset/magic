@@ -12,7 +12,10 @@ f_format = utils.get_current_time_for_filename()
 qr_size = 360
 
 root = tk.Tk()
-root.withdraw()
+# root.withdraw()
+text = tk.Text(root, height=8,width=50)
+text.pack()
+
 dat = root.clipboard_get()
 datas: List[str] = []
 
@@ -37,4 +40,6 @@ for i, data in enumerate(datas):
 
     im_grande.paste(img_qr, (0, 0))
     im_grande.save(f'{desktop_path}{SEP}qr_{f_format}({i+1}).png')
-root.destroy()
+
+# root.destroy()
+root.mainloop()

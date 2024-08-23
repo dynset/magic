@@ -1,0 +1,6 @@
+[Desktop Entry]
+Version=1.0
+Name=ariandi
+Comment=inicio
+Exec=/home/ari/Ejecutables/bin/inicio.sh
+Type=Application

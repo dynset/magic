@@ -1,0 +1,3 @@
+Per.tar
+Escritorio/
+Descargas/

@@ -1,0 +1,32 @@
+sudo su
+adb push $misd/Pictures/Screenshots
+adb pull $misd/Pictures/Screenshots
+clip
+notify-send -i /home/ari/.config/autostart/nstar.png ariandi bienvenido
+flutter doctor
+echo $NO_PROXY
+flutter create --org com.dussewi prueba1
+flutter run -d chrome
+flutter upgrade
+sudo -E apt install curl
+flutter upgrade
+flutter create pru
+flutter devices
+flutter pub get
+flutter precache
+amixer -D pulse sset Master 5%-
+sudo dpkg -i *.deb
+/opt/apps/github.cboxdoerfer.fsearch-dev/files/bin/fsearch
+setxkbmap us
+ipes
+python3 scan2preserve.py 
+gdb python
+gdb -q python
+gdb -q python3
+git config --get remote.origin.url
+git remote set-url origin https://_ariandi_:Esperanto\!@gitlab.com/_ariandi_/lottery_cat.git
+git push --set-upstream origin ar
+flutter run --verbose
+exec bash
+cat a.txt >> b.txt
+flutter build apk --split-per-abi

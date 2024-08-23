@@ -1,0 +1,47 @@
+
+# ariandi
+
+alias ipes="ifconfig | grep \"inet \""
+alias p=python3
+# alias vpn="sudo protonvpn c -f"
+# alias novpn="sudo protonvpn d"
+alias vpn="windscribe connect"
+alias novpn="windscribe disconnect"
+#alias exp="export HTTP_PROXY=127.0.0.1:3333 && export HTTPS_PROXY=127.0.0.1:3333 && export NO_PROXY=127.0.0.1,10.*,localhost && export http_proxy=127.0.0.1:3333 && export https_proxy=127.0.0.1:3333"
+export HTTP_PROXY=http://127.0.0.1:3333
+export HTTPS_PROXY=http://127.0.0.1:3333
+export FTP_PROXY=http://127.0.0.1:3333
+export NO_PROXY=localhost,127.0.0.1
+
+export http_proxy=http://127.0.0.1:3333
+export https_proxy=http://127.0.0.1:3333
+export ftp_proxy=http://127.0.0.1:3333
+export no_proxy=localhost,127.0.0.1
+
+
+#export NO_PROXY=127.0.0.1,10.*,localhost,LOCALHOST,192.168.*,127.*
+#export no_proxy=10.*,localhost,LOCALHOST,192.168.*,127.*,127.0.0.1
+
+
+export CARPETA_ANDROID=/home/ari/Ejecutables/android
+
+export SDK_HOME=/home/ari/Ejecutables/android/sdk
+export ANDROID_HOME=/home/ari/Ejecutables/android/sdk
+export JAVA_HOME=/home/ari/Ejecutables/android/android-studio/jre
+
+export PATH=$PATH:/home/ari/Ejecutables/bin
+export PATH=$PATH:/home/ari/.local/bin
+export PATH=$PATH:/home/ari/Ejecutables/android/flutter/bin
+export PATH=$PATH:/home/ari/Ejecutables/android
+export PATH=$PATH:/home/ari/Ejecutables/android/sdk/tools
+export PATH=$PATH:/home/ari/Ejecutables/android/sdk/platform-tools
+export PATH=$PATH:/home/ari/Ejecutables/android/sdk/tools/bin
+export PATH=$PATH:/home/ari/Ejecutables/android/sdk
+
+export ANDROID_SDK_ROOT=/home/ari/Ejecutables/android/sdk/platform-tools
+export ANDROID_ROOT=/home/ari/Ejecutables/android/sdk/platform-tools
+export SDK_ROOT=/home/ari/Ejecutables/android/sdk/platform-tools
+
+export misd=/storage/emulated/0
+
+PATH=$PATH:/home/ari/.gradle
